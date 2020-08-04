@@ -1,0 +1,43 @@
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    .small {
+        width: 66.6%;
+    }
+    .medium{
+        width: 33.3%;
+    }
+    .large{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    .wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+    .small{
+        width: 33.3%;
+        float: left;
+    }
+    .medium{
+        width: 33.3%;
+        float: left;
+    }
+    .large{
+        width: 33.3%;
+        float: left;
+    }
+}
+
